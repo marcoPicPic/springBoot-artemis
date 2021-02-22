@@ -1,0 +1,4 @@
+activemq:
+  broker-url: vm://embedded-broker?broker.persistent=false
+server:
+  port: 8082

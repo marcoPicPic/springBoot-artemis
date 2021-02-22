@@ -1,0 +1,43 @@
+2021-02-19 14:56:35,879 INFO  [org.apache.activemq.artemis.integration.bootstrap] AMQ101000: Starting ActiveMQ Artemis Server
+2021-02-19 14:56:35,932 INFO  [org.apache.activemq.artemis.core.server] AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/large-messages,pagingDirectory=data/paging)
+2021-02-19 14:56:35,961 INFO  [org.apache.activemq.artemis.core.server] AMQ221013: Using NIO Journal
+2021-02-19 14:56:36,007 INFO  [org.apache.activemq.artemis.core.server] AMQ221057: Global Max Size is being adjusted to 1/2 of the JVM max size (-Xmx). being defined as 1 073 741 824
+2021-02-19 14:56:36,031 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2021-02-19 14:56:36,032 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2021-02-19 14:56:36,033 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2021-02-19 14:56:36,034 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-mqtt-protocol]. Adding protocol support for: MQTT
+2021-02-19 14:56:36,034 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-openwire-protocol]. Adding protocol support for: OPENWIRE
+2021-02-19 14:56:36,035 INFO  [org.apache.activemq.artemis.core.server] AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2021-02-19 14:56:36,102 INFO  [org.apache.activemq.artemis.core.server] AMQ221034: Waiting indefinitely to obtain live lock
+2021-02-19 14:56:36,102 INFO  [org.apache.activemq.artemis.core.server] AMQ221035: Live Server Obtained live lock
+2021-02-19 14:56:36,169 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address DLQ supporting [ANYCAST]
+2021-02-19 14:56:36,189 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue DLQ on address DLQ
+2021-02-19 14:56:36,242 INFO  [org.apache.activemq.artemis.core.server] AMQ221080: Deploying address ExpiryQueue supporting [ANYCAST]
+2021-02-19 14:56:36,244 INFO  [org.apache.activemq.artemis.core.server] AMQ221003: Deploying ANYCAST queue ExpiryQueue on address ExpiryQueue
+2021-02-19 14:56:36,553 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61616 for protocols [CORE,MQTT,AMQP,STOMP,HORNETQ,OPENWIRE]
+2021-02-19 14:56:36,594 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5445 for protocols [HORNETQ,STOMP]
+2021-02-19 14:56:36,621 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:5672 for protocols [AMQP]
+2021-02-19 14:56:36,625 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:1883 for protocols [MQTT]
+2021-02-19 14:56:36,629 INFO  [org.apache.activemq.artemis.core.server] AMQ221020: Started EPOLL Acceptor at 0.0.0.0:61613 for protocols [STOMP]
+2021-02-19 14:56:36,633 INFO  [org.apache.activemq.artemis.core.server] AMQ221007: Server is now live
+2021-02-19 14:56:36,633 INFO  [org.apache.activemq.artemis.core.server] AMQ221001: Apache ActiveMQ Artemis Message Broker version 2.17.0 [0.0.0.0, nodeID=47d029f7-72ba-11eb-bf1b-7066555f309b] 
+2021-02-19 14:56:36,879 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Initialized activemq-branding plugin
+2021-02-19 14:56:36,916 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Initialized artemis-plugin plugin
+2021-02-19 14:56:37,086 INFO  [io.hawt.HawtioContextListener] Initialising hawtio services
+2021-02-19 14:56:37,125 INFO  [io.hawt.system.ConfigManager] Configuration will be discovered via system properties
+2021-02-19 14:56:37,128 INFO  [io.hawt.jmx.JmxTreeWatcher] Welcome to Hawtio 2.11.0
+2021-02-19 14:56:37,134 INFO  [io.hawt.web.auth.AuthenticationConfiguration] Starting hawtio authentication filter, JAAS realm: "activemq" authorized role(s): "amq" role principal classes: "org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal"
+2021-02-19 14:56:37,149 INFO  [io.hawt.web.proxy.ProxyServlet] Proxy servlet is disabled
+2021-02-19 14:56:37,156 INFO  [io.hawt.web.servlets.JolokiaConfiguredAgentServlet] Jolokia overridden property: [key=policyLocation, value=file:/home/map/sources/perso/artemis/apache-artemis-2.17.0/bin/test/etc/jolokia-access.xml]
+2021-02-19 14:56:37,256 INFO  [org.apache.activemq.artemis] AMQ241001: HTTP Server started at http://localhost:8161
+2021-02-19 14:56:37,256 INFO  [org.apache.activemq.artemis] AMQ241002: Artemis Jolokia REST API available at http://localhost:8161/console/jolokia
+2021-02-19 14:56:37,256 INFO  [org.apache.activemq.artemis] AMQ241004: Artemis Console available at http://localhost:8161/console
+2021-02-19 14:56:55,335 INFO  [io.hawt.web.auth.LoginServlet] Hawtio login is using 1800 sec. HttpSession timeout
+2021-02-19 14:56:55,964 INFO  [io.hawt.web.auth.keycloak.KeycloakServlet] Keycloak integration is disabled
+2021-02-19 14:56:59,584 INFO  [io.hawt.web.auth.LoginServlet] Logging in user: test
+2021-02-19 15:40:28,106 INFO  [io.hawt.web.auth.SessionExpiryFilter] Expiring session due to inactivity
+2021-02-19 20:09:56,505 INFO  [io.hawt.web.auth.AuthenticationFilter] Destroying hawtio authentication filter
+2021-02-19 20:09:56,507 INFO  [io.hawt.HawtioContextListener] Destroying hawtio services
+2021-02-19 20:09:56,514 INFO  [org.apache.activemq.hawtio.plugin.PluginContextListener] Destroyed artemis-plugin plugin
+2021-02-19 20:09:56,516 INFO  [org.apache.activemq.hawtio.branding.PluginContextListener] Destroyed activemq-branding plugin
+2021-02-19 20:09:56,528 INFO  [org.apache.activemq.artemis.core.server] AMQ221002: Apache ActiveMQ Artemis Message Broker version 2.17.0 [47d029f7-72ba-11eb-bf1b-7066555f309b] stopped, uptime 5 hours 13 minutes

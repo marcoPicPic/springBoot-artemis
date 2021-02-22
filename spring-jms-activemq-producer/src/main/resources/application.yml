@@ -1,0 +1,9 @@
+activemq:
+  broker-url: tcp://localhost:61616
+spring:
+  activemq:
+    packages:
+      trust-all= true
+jms:
+  queue:
+    destination: queue-test
